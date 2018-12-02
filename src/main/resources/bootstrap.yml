@@ -1,0 +1,12 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: ares-client-feign
+
+ares-service-h2:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: ares-service-h2
